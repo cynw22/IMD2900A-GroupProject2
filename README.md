@@ -1,6 +1,6 @@
 # Final Project for Design Studio 1
 
-##Instructions
+## Instructions:
 For our 2nd group assignment, you and your team will imagine yourselves are design and development partners for a not for profit organization. Using what we have learnt in class, you will identify pain points for your partner organization and propose a redesign of their existing website based on your insights.
 
 Sign up here: https://docs.google.com/spreadsheets/d/1agS4dLqB_GH_c4f0m70ldGFR7piyxKbpf7KkC_Q97u8/edit?usp=sharing
