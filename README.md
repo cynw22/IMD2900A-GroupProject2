@@ -13,7 +13,10 @@ This assignment has 3 parts:
 - Design and development of new website
 - Proposed evaluation technique for the redesign.
 
-Submission Requirements: In Class Presentation (5 mins), Presentation Deck (with detailed description and documentation of process followed), Working website (This can be run locally, but you are encouraged to put it on the web too).
+Submission Requirements: 
+- In Class Presentation (5 mins), 
+- Presentation Deck (with detailed description and documentation of process followed),
+- Working website (This can be run locally, but you are encouraged to put it on the web too).
 
 Total points: 35 pts
 
