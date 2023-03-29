@@ -1,1 +1,2 @@
-# designstuido2Final
+# Final Project for Design Studio 1
+
