@@ -22,5 +22,5 @@ Total points: 35 pts
 
 Due on Apr 14, 2023 11:59 PM
 
-Rubric Name: Group Assignment Two
+## Rubric: Group Assignment Two
 ![image](https://user-images.githubusercontent.com/124914328/228672470-0a01ebf5-11d9-48fc-95b8-72c5e29c8d16.png)
