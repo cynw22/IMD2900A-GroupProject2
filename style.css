@@ -1,7 +1,18 @@
+:root{
+/* Core colours */
+--colour-orange: orange;
+--colour-light-gray: #ddd;
+--colour-dark-gray: #333;
+--colour-white: white;
+--colour-black: black;
+
+}
+
+
 /* Navbar container */
 .navBar {
     overflow: hidden;
-    background-color: #333;
+    background-color: var(--colour-dark-gray);
     font-family: Arial;
   }
   
@@ -9,7 +20,7 @@
   .navBar a {
     float: left;
     font-size: 16px;
-    color: white;
+    color: var(--colour-white);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -26,7 +37,7 @@
     font-size: 16px;
     border: none;
     outline: none;
-    color: white;
+    color: var(--colour-white);
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
@@ -35,7 +46,7 @@
   
   /* Add a red background color to navbar links on hover */
   .navBar a:hover, .dropDown:hover .dropButton {
-    background-color: orange;
+    background-color: var(--colour-orange);
   }
   
   /* Dropdown content (hidden by default) */
@@ -51,7 +62,7 @@
   /* Links inside the dropdown */
   .dropDown-content a {
     float: none;
-    color: black;
+    color: var(--colour-black);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -60,7 +71,7 @@
   
   /* Add a grey background color to dropdown links on hover */
   .dropDown-content a:hover {
-    background-color: #ddd;
+    background-color: var(--colour-light-gray);
   }
   
   /* Show the dropdown menu on hover */
@@ -70,8 +81,8 @@
 
   /**/
   .dropButton2 {
-    color: #ddd;
-    background-color: orange;
+    color: var(--colour-light-gray);
+    background-color: var(--colour-orange);
   }
   /**/
 
@@ -91,12 +102,12 @@
   }
 
   .logoLink:hover{
-    background-color: #333 !important;
+    background-color: var(--colour-dark-gray) !important;
   }
   /* Orange Button style */
   .orangeButton {
-    color:white;
-    background-color: orange;
+    color:var(--colour-white);
+    background-color: var(--colour-orange);
     align-self: center;
     float: none;
     padding: 12px 16px;
@@ -106,13 +117,8 @@
   }
 
   .orangeButton:hover {
-    background-color:white !important;
-    color: orange;
-  }
-
-  /**/
-  .heroImg{
-    height: auto;
+    background-color:var(--colour-white) !important;
+    color: var(--colour-orange);
   }
 
   /**/
@@ -145,7 +151,7 @@
 
   body{
     font-family: "Gill Sans",sans-serif;
-    background-color: #ddd;
+    background-color: var(--colour-light-gray);
   }
 
   p{
@@ -174,4 +180,14 @@
 
   .icon{
     padding: 5px;
+  }
+
+  .noStyle{
+    text-decoration: none;
+    color: var(--colour-black);
+  }
+
+  .noStyle:hover{
+    text-decoration: none;
+    color: var(--colour-orange);
   }
