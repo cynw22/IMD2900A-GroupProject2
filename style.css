@@ -67,3 +67,12 @@
   .dropDown:hover .dropDown-content {
     display: block;
   }
+
+  .hiddenState {
+    opacity: 0%;
+    display:none;
+  }
+
+  .showState {
+    display:block;
+  }
