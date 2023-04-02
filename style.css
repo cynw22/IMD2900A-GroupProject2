@@ -97,14 +97,30 @@
   .orangeButton {
     color:white;
     background-color: orange;
+    align-self: center;
   }
 
   .orangeButton:hover {
-    background-color:#ddd !important;
+    background-color:white !important;
     color: orange;
   }
 
   /**/
   .heroImg{
     height: auto;
+  }
+
+  /**/
+  .section1{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  body{
+    font-family: "Gill Sans",sans-serif;
+    background-color: #ddd;
+  }
+
+  p{
+    flex-wrap: wrap;
   }
