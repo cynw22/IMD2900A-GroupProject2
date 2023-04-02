@@ -116,10 +116,18 @@
   }
 
   /**/
-  .section1{
+  .space-evenly{
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
+  }
+
+  .space-around{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
   }
 
   .text1{
@@ -133,4 +141,15 @@
 
   p{
     flex-wrap: wrap;
+  }
+
+  /**/
+  .block1{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .image3{
+    padding-left: 10px;
+    padding-right: 20px;
   }
