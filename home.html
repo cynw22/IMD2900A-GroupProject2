@@ -25,10 +25,12 @@
       <!--Should change second layer to if button is clicked show, otherwise keep hidden or something
         not hover state
         - use if button clicked add class
-      Probably have to redu the entire navBar, Sorry-->
+        Probably have to redu the entire navBar, Sorry
+        Another Problem: image cant find the source, I took a screenshot instead
+        Also the logo is not aligned with the items-->
       <div class="navBar">
         <!-- https://www.w3schools.com/howto/howto_css_more_button.asp -->
-        <a class="logoLink" href="home.html"><img src="The_Shepherds_of_Good_Hope_logo.png" alt="The Shepherds of Good Hope logo"></a>
+        <a class="logoLink" href="home.html"><img class="logoImg" src="The_Shepherds_of_Good_Hope_logo.png" alt="The Shepherds of Good Hope logo"></a>
         <!--First Drop Down: About us-->
         <div class="dropDown">
           <button class="dropButton"><a href="home.html">ABOUT US</a>
@@ -122,20 +124,20 @@
               </div>
             </div> -->
             <!--Second drop down inside Get Involved-->
-            <div class="dropDown">
-              <button class="dropButton"><a href="home.html">EVENTS</a>
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropDown-content">
+            <div class="dropDown2">
+                <button class="dropButton"><a href="home.html">EVENTS</a>
+                  <i class="fa fa-caret-down"></i>
+                </button>
+              <div class="dropDown-content2">
                 <a href="home.html">TASTE FOR HOME</a>
                 <a href="home.html">HOP FOR HOPE</a>
                 <a href="home.html">HOST A FUNDAISER</a>
                 <a href="home.html">SIGNATURE EVENTS</a>
               </div>
             </div>
-            <a href="home.html">REQUEST A TOUR</a>
+            <!--<a href="home.html">REQUEST A TOUR</a>
             <a href="home.html">REQUEST A PRESENTATION</a>
-            <a href="home.html">INFORMATION FOR SCHOOLS</a>
+            <a href="home.html">INFORMATION FOR SCHOOLS</a> -->
           </div>
         </div>
         <!--Forth Drop Down: Programs & Services-->
@@ -188,10 +190,18 @@
             </div> -->
           </div>
         </div>
-        <a href="home.html">CONTACT</a>
-        <a class="orangeButton" href="home.html">DONATE</a>
+        <div class="dropDown">
+          <button class="dropButton"><a href="home.html">CONTACT</a>
+            <i class="fa fa-caret-down"></i>
+          </button>
+        </div>
+        <div class="dropDown">
+          <button class="dropButton"><a href="home.html">DONATE</a>
+            <i class="fa fa-caret-down"></i>
+          </button>
+        </div>
       </div>
-      <a href="home.html"><img src="The_Shepherds_of_Good_Hope_Hero_Home.jpg" alt="The Shepherds of Good Hope Hero"></a>
+      <a class="heroImg" href="home.html"><img src="The_Shepherds_of_Good_Hope_Hero_Home.jpg" alt="The Shepherds of Good Hope Hero"></a>
     </header>
 
     <main>
