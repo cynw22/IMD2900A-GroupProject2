@@ -68,6 +68,13 @@
     display: block;
   }
 
+  /**/
+  .dropButton2 {
+    color: #ddd;
+    background-color: orange;
+  }
+  /**/
+
   .hiddenState {
     opacity: 0%;
     display:none;
@@ -77,6 +84,11 @@
     display:block;
   }
 
+  /**/
+  
+  .logoImg {
+    max-height: 150px;
+  }
 
   .logoLink:hover{
     background-color: #333 !important;
@@ -90,4 +102,9 @@
   .orangeButton:hover {
     background-color:#ddd !important;
     color: orange;
+  }
+
+  /**/
+  .heroImg{
+    height: auto;
   }
