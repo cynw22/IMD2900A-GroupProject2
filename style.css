@@ -166,3 +166,8 @@
   .contentHolder{
     max-height: 100px;
   }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+  }
