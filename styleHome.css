@@ -214,7 +214,7 @@ p{
   }
   */
   ol a{
-    color: var(--colour-black);
+    color: var(--colour--light-gray);
   }
 
   ol a:hover{
@@ -261,3 +261,6 @@ p{
   margin-right: 0px;
 }
 
+.lightGray {
+  color: var(--colour-light-gray);
+}
