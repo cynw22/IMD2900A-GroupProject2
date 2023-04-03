@@ -215,3 +215,104 @@ main {
 h2 {
     font-size: xx-large;
 }
+
+.main a {
+    text-decoration: none;
+    color: var(--colour-black);
+}
+
+.main a:visited {
+    text-decoration: none;
+    color: var(--colour-black);
+}
+
+.main a:hover {
+    text-decoration: none;
+    color: var(--colour-white);
+}
+
+.lightGray {
+    color: var(--colour-light-gray);
+}
+
+ol a{
+    color: var(--colour-light-gray);
+  }
+
+  ol a:hover{
+    color: var(--colour--light-gray);
+  }
+
+  .footer{
+    background-color: var(--colour-dark-gray);
+    padding-top: 1%;
+  }
+
+  .centerVertical{
+  vertical-align: middle;  
+  text-align: center;
+  }
+
+  .footerBottom{
+    display: flex;
+    padding:.5% 1% 1% 1%;
+  }
+
+.text2{
+  margin-left: auto;
+  padding-right: 1%;
+}
+
+.content1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentHolder{
+  display: flex;
+  justify-content: center;
+}
+
+.width200{
+  width: 200%;
+}
+
+.contentPush{
+  margin-left:auto;
+  margin-right: 0px;
+}
+
+.block1{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .image3{
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .icon{
+    padding: 5px;
+  }
+
+  .noStyle{
+    text-decoration: none;
+    list-style: none;
+    color: var(--colour-black);
+  }
+
+  .noStyle:hover{
+    text-decoration: none;
+    color: var(--colour-orange);
+  }
+
+  .main {
+    padding: 1%;
+  }
