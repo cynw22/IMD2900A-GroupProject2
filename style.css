@@ -184,6 +184,7 @@
 
   .noStyle{
     text-decoration: none;
+    list-style: none;
     color: var(--colour-black);
   }
 
@@ -191,3 +192,41 @@
     text-decoration: none;
     color: var(--colour-orange);
   }
+
+  .main {
+    padding: 1%;
+  }
+  /**/
+
+  /*holds the list of items
+  .links{
+
+  }
+  */
+  ol a{
+    color: var(--colour-black);
+  }
+
+  ol a:hover{
+    color: var(--colour--light-gray);
+  }
+
+  .footer{
+    background-color: var(--colour-dark-gray);
+    padding-top: 1%;
+  }
+
+  .centerVertical{
+  vertical-align: middle;  
+  text-align: center;
+  }
+
+  .footerBottom{
+    display: flex;
+    padding:.5% 1% 1% 1%;
+  }
+
+.text2{
+  margin-left: auto;
+  padding-right: 1%;
+}
