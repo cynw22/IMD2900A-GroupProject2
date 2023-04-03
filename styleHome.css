@@ -214,11 +214,11 @@ p{
   }
   */
   ol a{
-    color: var(--colour--light-gray);
+    color: var(--colour-light-gray);
   }
 
   ol a:hover{
-    color: var(--colour--light-gray);
+    color: var(--colour-orange);
   }
 
   .footer{
