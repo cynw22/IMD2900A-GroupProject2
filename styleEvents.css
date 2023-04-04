@@ -351,3 +351,7 @@ ol a{
   background-color: var(--colour-orange);
   color: var(--colour-white);
 }
+
+.orangeButton a {
+  color: var(--colour-white);
+}
