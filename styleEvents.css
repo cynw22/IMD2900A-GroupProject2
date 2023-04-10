@@ -138,7 +138,7 @@
     padding: 14px 16px;
     text-decoration: none;
     display: block;
-    text-align: left;
+    text-align: center;
     border: none;
   }
 
@@ -218,9 +218,11 @@ ol a{
     padding:.5% 1% 1% 1%;
   }
 
-.text2{
-  margin-left: auto;
-  padding-right: 1%;
+.text2 {
+    font-family: Arial;
+    font-size: 12px;
+    margin-left: auto;
+    padding-right: 1%;
 }
 
 .content1{
