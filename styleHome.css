@@ -223,11 +223,13 @@ p{
   .footer{
     background-color: var(--colour-dark-gray);
     padding-top: 1%;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
   }
 
   .centerVertical{
-  vertical-align: middle;  
-  text-align: center;
+    vertical-align: middle;  
+    text-align: center;
   }
 
   .footerBottom{

@@ -245,6 +245,8 @@ ol a{
   .footer{
     background-color: var(--colour-dark-gray);
     padding-top: 1%;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
   }
 
   .centerVertical{
