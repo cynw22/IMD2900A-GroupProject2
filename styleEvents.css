@@ -12,7 +12,7 @@
     .navBar {
         overflow: hidden;
         background-color: var(--colour-dark-gray);
-        font-family: 'Bebas Neue';s
+        font-family: 'Bebas Neue';
     }
       
     /* Links inside the navbar */
@@ -142,8 +142,26 @@
     border: none;
   }
 
+  /* For Events button in drop-down */
+  .orangeButtonDropDown {
+    color: var(--colour-white);
+    background-color: var(--colour-orange);
+    align-self: center;
+    float: none;
+    padding: 0px 48px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border: none;
+  }
+
   .orangeButton:hover {
     background-color:var(--colour-white) !important;
+    color: var(--colour-orange);
+  }
+
+  .orangeButtonDropDown:hover {
+    background-color: var(--colour-light-gray) !important;
     color: var(--colour-orange);
   }
 
@@ -284,7 +302,7 @@ ol a{
     background-color: var(--colour-white);
     align-self: center;
     float: none;
-    padding: 6px 16px;
+    padding: 6px 48px;
     text-decoration: none;
     display: block;
     text-align: left;
