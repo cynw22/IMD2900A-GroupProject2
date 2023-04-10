@@ -131,6 +131,8 @@
 }
 /* Orange Button style */
 .orangeButton {
+    font-family: 'Bebas Neue';
+    font-size: 20px;
     color:var(--colour-white);
     background-color: var(--colour-orange);
     align-self: center;
@@ -148,11 +150,18 @@
 }
 
 body{
-    font-family: "Gill Sans",sans-serif;
+    font-family: Bahnschrift;
     background-color: var(--colour-light-gray);
 }
 
+h1 {
+    font-family: Bahnschrift;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
 p{
+    font-family: 'Arial';
     flex-wrap: wrap;
 }
 
@@ -232,6 +241,11 @@ ol a:hover{
     text-align: center;
 }
 
+.footerButton {
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+}
+
 .footerBottom{
     display: flex;
     padding:.5% 1% 1% 1%;
@@ -265,6 +279,7 @@ ol a:hover{
 }
 
 .lightGray {
+    font-family: 'Bebas Neue';
     color: var(--colour-light-gray);
 }
 
