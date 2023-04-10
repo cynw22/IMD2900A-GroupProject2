@@ -1,12 +1,11 @@
-:root{
+:root {
     /* Core colours */
-    --colour-orange: orange;
+    --colour-orange: #e75204;
     --colour-light-gray: #ddd;
-    --colour-dark-gray: #333;
+    --colour-dark-gray: #313f47;
     --colour-white: white;
     --colour-black: black;
-    
-    }
+}
     
     
     /* Navbar container */
