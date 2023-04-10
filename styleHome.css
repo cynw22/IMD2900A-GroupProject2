@@ -87,7 +87,7 @@
   
 .space-evenly{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 10px;
 }
 
@@ -282,6 +282,10 @@ ol a:hover{
 .contentHolder{
     display: flex;
     justify-content: center;
+}
+
+.contentContainer {
+    margin-top: 30px;
 }
 
 .width200{
