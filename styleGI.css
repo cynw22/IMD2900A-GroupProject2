@@ -12,13 +12,13 @@
     .navBar {
         overflow: hidden;
         background-color: var(--colour-dark-gray);
-        font-family: Arial;
+        font-family: 'Bebas Neue';
     }
       
     /* Links inside the navbar */
     .navBar a {
         float: left;
-        font-size: 16px;
+        font-size: 25px;
         color: var(--colour-white);
         text-align: center;
         padding: 14px 16px;
