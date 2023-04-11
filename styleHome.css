@@ -133,12 +133,12 @@
 .logoLink:hover{
     background-color: var(--colour-dark-gray) !important;
 }
+
 /* Orange Button style */
 .orangeButton {
     font-family: 'Bebas Neue';
-    margin-top: 20px;
     font-size: 25px;
-    color:var(--colour-white);
+    color: var(--colour-white);
     background-color: var(--colour-orange);
     align-self: center;
     float: none;

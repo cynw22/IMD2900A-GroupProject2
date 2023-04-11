@@ -132,7 +132,9 @@
 
 /* Orange Button style */
 .orangeButton {
-    color:var(--colour-white);
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+    color: var(--colour-white);
     background-color: var(--colour-orange);
     align-self: center;
     float: none;
