@@ -154,7 +154,7 @@
     padding: 0px 48px;
     text-decoration: none;
     display: block;
-    text-align: center;
+    text-align: left;
     border: none;
 }
 
@@ -198,7 +198,13 @@ main {
 }
 
 h2 {
-    font-size: xx-large;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 30px;
+    color: var(--colour-black)
 }
 
 .main a {
@@ -238,6 +244,11 @@ ol a:hover{
 .centerVertical{
     vertical-align: middle;  
     text-align: center;
+}
+
+.footerButton {
+    font-family: 'Bebas Neue';
+    font-size: 30px;
 }
 
 .footerBottom{

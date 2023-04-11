@@ -161,6 +161,16 @@ h1 {
     padding-top: 15px;
 }
 
+h2 {
+    font-family: Bahnschrift;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 30px;
+    color: var(--colour-black)
+}
+
 p{
     flex-wrap: wrap;
 }
@@ -265,6 +275,11 @@ ol a:hover{
 .centerVertical{
     vertical-align: middle;  
     text-align: center;
+}
+
+.footerButton {
+    font-family: 'Bebas Neue';
+    font-size: 30px;
 }
 
 .footerBottom{
