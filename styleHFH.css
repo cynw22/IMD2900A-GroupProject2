@@ -1,0 +1,354 @@
+:root {
+    /* Core colours */
+    --colour-orange: #e75204;
+    --colour-light-gray: #ddd;
+    --colour-dark-gray: #313f47;
+    --colour-white: white;
+    --colour-black: black;
+}
+
+
+/* Navbar container */
+.navBar {
+    overflow: hidden;
+    background-color: var(--colour-dark-gray);
+    font-family: 'Bebas Neue';
+}
+
+    /* Links inside the navbar */
+    .navBar a {
+        float: left;
+        font-size: 25px;
+        color: var(--colour-white);
+        text-align: center;
+        padding: 14px 25px;
+        text-decoration: none;
+    }
+
+/* The dropdown container */
+.dropDown {
+    float: left;
+    overflow: hidden;
+}
+
+    /* Dropdown button */
+    .dropDown .dropButton {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: var(--colour-white);
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit; /* Important for vertical align on mobile phones */
+        margin: 0; /* Important for vertical align on mobile phones */
+    }
+
+    /* Add a red background color to navbar links on hover */
+    .navBar a:hover, .dropDown:hover .dropButton {
+        background-color: var(--colour-orange);
+    }
+
+/* Dropdown content (hidden by default) */
+.dropDown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    /* Links inside the dropdown */
+    .dropDown-content a {
+        float: none;
+        color: var(--colour-black);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        /* Add a grey background color to dropdown links on hover */
+        .dropDown-content a:hover {
+            background-color: var(--colour-light-gray);
+        }
+
+/* Show the dropdown menu on hover */
+.dropDown:hover .dropDown-content {
+    display: block;
+}
+
+/**/
+.dropButton2 {
+    color: var(--colour-light-gray);
+    background-color: var(--colour-orange);
+}
+/**/
+
+.space-evenly {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.space-around {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.maxWidth50 {
+    max-width: 50%;
+}
+
+.maxWidth25 {
+    max-width: 25%;
+}
+
+.maxWidth35 {
+    max-width: 35%;
+}
+
+.maxWidth60 {
+    max-width: 60%;
+}
+
+.noStyle {
+    text-decoration: none;
+    list-style: none;
+    color: var(--colour-black);
+}
+
+    .noStyle:hover {
+        text-decoration: none;
+        color: var(--colour-orange);
+    }
+
+.logoImg {
+    max-height: 150px;
+}
+
+.logoLink:hover {
+    background-color: var(--colour-dark-gray) !important;
+}
+
+/* Orange Button style */
+.orangeButton {
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+    color: var(--colour-white);
+    background-color: var(--colour-orange);
+    align-self: center;
+    float: none;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border: none;
+}
+
+/* For Events button in drop-down */
+.orangeButtonDropDown {
+    color: var(--colour-white);
+    background-color: var(--colour-orange);
+    align-self: center;
+    float: none;
+    padding: 0px 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border: none;
+}
+
+.orangeButton:hover {
+    background-color: var(--colour-white);
+    color: var(--colour-orange);
+}
+
+.orangeButtonDropDown:hover {
+    background-color: var(--colour-light-gray);
+    color: var(--colour-orange);
+}
+
+body {
+    font-family: Bahnschrift;
+    background-color: var(--colour-light-gray);
+}
+
+h1 {
+    font-family: Bahnschrift;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+h2 {
+    font-family: Bahnschrift;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 30px;
+    color: var(--colour-black)
+}
+
+.text2 {
+    font-family: Arial;
+    font-size: 12px;
+    margin-left: auto;
+    padding-right: 1%;
+}
+
+p {
+    font-family: 'Arial';
+    flex-wrap: wrap;
+}
+
+.orangeButton a:hover {
+    background-color: var(--colour-white);
+    color: var(--colour-orange);
+}
+
+/**/
+.hiddenState {
+    opacity: 0%;
+    display: none;
+}
+
+.showState {
+    display: block;
+}
+
+/**/
+.block1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.image3 {
+    width: 800px;
+    height: 334px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    width: 50px;
+    padding: 5px;
+}
+
+.noStyle {
+    text-decoration: none;
+    list-style: none;
+    color: var(--colour-black);
+}
+
+    .noStyle:hover {
+        text-decoration: none;
+        color: var(--colour-orange);
+    }
+
+.main {
+    padding: 1%;
+}
+/**/
+
+/*holds the list of items
+.links{
+
+}
+*/
+ol a {
+    color: var(--colour-light-gray);
+}
+
+    ol a:hover {
+        color: var(--colour-orange);
+    }
+
+.footer {
+    background-color: var(--colour-dark-gray);
+    padding-top: 1%;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+}
+
+.centerVertical {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.footerButton {
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+}
+
+.footerBottom {
+    display: flex;
+    padding: .5% 1% 1% 1%;
+}
+
+.text2 {
+    font-family: Arial;
+    font-size: 12px;
+    margin-left: auto;
+    padding-right: 1%;
+}
+
+.content1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentHolder {
+    display: flex;
+    justify-content: center;
+}
+
+.contentContainer {
+    margin-top: 30px;
+}
+
+.width200 {
+    width: 200%;
+}
+
+.contentPush {
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.lightGray {
+    font-family: 'Bebas Neue';
+    color: var(--colour-light-gray);
+}
+
+.whiteButton {
+    color: var(--colour-black);
+    background-color: var(--colour-white);
+    align-self: center;
+    float: none;
+    padding: 14px 48px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border: none;
+}
+
+    .whiteButton:hover {
+        background-color: var(--colour-orange) !important;
+        color: var(--colour-white);
+    }
+
+    .whiteButton a:hover {
+        background-color: var(--colour-orange) !important;
+        color: var(--colour-white);
+    }
