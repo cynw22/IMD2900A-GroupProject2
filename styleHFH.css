@@ -376,7 +376,6 @@ ol a {
     padding: 1% 10%;
     background-color: var(--colour-white);
     margin-bottom: 2%;
-    max-width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -422,6 +421,11 @@ ol a {
     color: var(--colour-white);
 }
 
+
+.section5:visited{
+    color: var(--white);
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -432,3 +436,16 @@ ol a {
 #section55{
     margin-bottom: 1%;
 }
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .grid-item {
+    padding: 20px;
+    text-align: left;
+  }
