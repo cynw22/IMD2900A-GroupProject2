@@ -395,3 +395,7 @@ ol a {
     align-items: center;
     padding: 2%;
 }
+
+.hidden {
+    opacity: 0%;
+}
