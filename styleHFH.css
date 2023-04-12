@@ -372,12 +372,8 @@ ol a {
 }
 
 #section4 {
-    margin-right: 20%;
-    margin-left: 20%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 1%;
-    padding-top: 1%;
+    margin: 3% 20%;
+    padding: 1% 5%;
     background-color: var(--colour-white);
 }
 
@@ -387,6 +383,13 @@ ol a {
 }
 
 .section3{
-    margin-left: 10%;
+    margin-left: 19%;
 }
 
+.space-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
