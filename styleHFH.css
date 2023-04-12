@@ -352,3 +352,31 @@ ol a {
         background-color: var(--colour-orange) !important;
         color: var(--colour-white);
     }
+
+
+    /**/
+
+.container{
+    display: flexbox;
+    align-items: center;
+}
+
+.formLabels{
+    display: flex;
+    justify-content: right;
+}
+
+.space-right{
+    display: flex;
+    justify-content: right;
+}
+
+#section4 {
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color: var(--colour-white);
+}
