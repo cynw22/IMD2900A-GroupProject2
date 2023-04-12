@@ -298,7 +298,8 @@ ol a:hover{
     flex-direction: row;
 }
 
-.icon{
+.icon {
+    width: 50px;
     padding: 5px;
 }
 
