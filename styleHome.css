@@ -217,6 +217,11 @@ p{
 .icon{
     width: 50px;
     padding: 5px;
+    background-color: var(--colour-dark-gray);
+}
+
+.icon:hover {
+    background-color: var(--colour-orange);
 }
 
 .noStyle{
