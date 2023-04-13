@@ -215,6 +215,14 @@ p {
     flex-wrap: wrap;
 }
 
+p.indent {
+    text-indent: 30px;
+}
+
+ol {
+    list-style: none;
+}
+
 .orangeButton a:hover {
     background-color: var(--colour-white);
     color: var(--colour-orange);
