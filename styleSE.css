@@ -258,13 +258,9 @@ ol {
 
 
 .section5 {
-    padding-bottom: 40px;
-    padding-top: 10px;
     display: flex;
-    max-width: 30%;
-    flex-direction: row;
-    margin-left: 10%;
-    margin-right: 10%;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .buttonHeader {
@@ -475,4 +471,5 @@ ol a {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
