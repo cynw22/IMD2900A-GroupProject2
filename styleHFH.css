@@ -501,16 +501,21 @@ ol a {
     width: 55px;
 }
 
-.summary {
-    background-color: white;
+.section3 .space-around summary:hover {
+    color: var(--colour-white);
 }
 
 .details {
-    background-color: white;
+    background-color: var(--colour-white);
 }
 
 .section3 .space-around {
     background-color: var(--colour-white);
+}
+
+
+.section3 .space-around:hover {
+    background-color: var(--colour-orange);
 }
 
 .maxWidth75 {
@@ -535,5 +540,9 @@ ol a {
 }
 .section3 a:hover {
     text-decoration: none;
+    color: var(--colour-black);
+}
+
+.section3 .space-center:hover{
     color: var(--colour-black);
 }
