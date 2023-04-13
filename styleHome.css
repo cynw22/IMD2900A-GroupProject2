@@ -3,6 +3,11 @@
     src: url('BebasNeue-Regular.ttf');
 }
 
+@font-face {
+    font-family: Bahnschrift;
+    src: url('Bahnschrift.ttf');
+}
+
 :root {
     /* Core colours */
     --colour-orange: #e75204;
@@ -141,7 +146,7 @@
 
 /* Orange Button style */
 .orangeButton {
-    font-family: 'Bebas Neue';
+    font-family: Bebas Neue;
     font-size: 25px;
     color: var(--colour-white);
     background-color: var(--colour-orange);
@@ -261,7 +266,7 @@ ol a:hover{
 .footer{
     background-color: var(--colour-dark-gray);
     padding-top: 1%;
-    font-family: 'Bebas Neue';
+    font-family: Bebas Neue;
     font-size: 20px;
 }
 
@@ -271,7 +276,7 @@ ol a:hover{
 }
 
 .footerButton {
-    font-family: 'Bebas Neue';
+    font-family: Bebas Neue;
     font-size: 30px;
 }
 
@@ -312,7 +317,7 @@ ol a:hover{
 }
 
 .lightGray {
-    font-family: 'Bebas Neue';
+    font-family: Bebas Neue;
     color: var(--colour-light-gray);
 }
 
