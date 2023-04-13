@@ -439,6 +439,10 @@ ol a:hover{
 }
 
 
+.section5 .grid-item4 p{
+    padding-top: 1%;
+}
+
   .containerSection4 {
     display: flex;
   }
