@@ -5,6 +5,7 @@
     --colour-dark-gray: #313f47;
     --colour-white: white;
     --colour-black: black;
+    --colour-green: #84bc04;
 }
   
   
@@ -389,4 +390,29 @@ ol a:hover{
     background-size: cover;
     background-position: center;
     height:65vh;
+  }
+
+  .section5 .grid-item4 a{
+    color: var(--colour-white);
+    text-decoration: none;
+  }
+  .section5 .grid-item4 a:visited{
+    color: var(--colour-white);
+    text-decoration: none;
+  }
+  .section5 .grid-item4 a:hover{
+    color: var(--colour-black);
+    text-decoration: none;
+  }
+
+  .section5 a h3{
+    color: var(--colour-orange);
+  }
+
+  .section5 a h3:visited{
+    color: var(--colour-orange);
+}
+
+  .section5 a h3:hover{
+    color: var(--colour-green);
   }
