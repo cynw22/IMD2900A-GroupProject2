@@ -382,8 +382,8 @@ ol a {
 }
 
 #section4 {
-    margin: 1% 20%;
-    padding: 1% 10%;
+    margin: 1% 15%;
+    padding: 1%;
     background-color: var(--colour-white);
     margin-bottom: 2%;
     display: flex;
@@ -447,17 +447,17 @@ ol a {
     margin-bottom: 1%;
 }
 
-
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+    grid-row: auto;
+    padding: 10px;
   }
   
   .grid-item {
-    padding: 20px;
+    padding: 10px;
     text-align: left;
+
   }
 
   .section2 p{
