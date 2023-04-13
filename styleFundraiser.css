@@ -338,6 +338,8 @@ ol a:hover{
     align-self: center;
     float: none;
     padding: 14px 48px;
+    margin: 14px;
+    margin-top: 0px;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -369,4 +371,10 @@ ol a:hover{
 
   .icon:hover {
     background-color: var(--colour-orange);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
