@@ -410,21 +410,33 @@ ol a:hover{
     text-decoration: none;
   }
   .section5 .grid-item4 a:hover{
-    color: var(--colour-black);
+    color: var(--colour-orange);
     text-decoration: none;
   }
 
-  .section5 a h4{
-    color: var(--colour-orange);
+  .section5 .grid-item4 h3{
+    color: var(--colour-black);
   }
 
-  .section5 a h4:visited{
-    color: var(--colour-orange);
+  .section5 a h3:visited{
+    color: var(--colour-black);
 }
 
-  .section5 a h4:hover{
-    color: var(--colour-green);
+  .section5 a h3:hover{
+    color: var(--colour-orange);
   }
+
+.section5 .orangeButton{
+    color: var(--colour-white);
+}
+
+.section5 .orangeButton :visited{
+    color: var(--colour-white);
+}
+
+.section5 .orangeButton :hover{
+    color: var(--colour-black);
+}
 
 
   .containerSection4 {
@@ -446,10 +458,10 @@ ol a:hover{
 .containerButton .orangeButton {
     height: 100%;
     background-color: var(--colour-green);
-    color: var(--colour-black);
+    color: var(--colour-white);
 }
 
-.containerButton .orangeButton h3{
+.containerButton .orangeButton{
     display: flex;
     justify-content: center;
     align-items: center;
