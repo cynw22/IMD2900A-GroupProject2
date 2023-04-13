@@ -438,8 +438,8 @@ ol a {
     background-color: var(--colour-white);
     color: var(--colour-black);
     text-decoration: none;
-   padding-top: 4%;
-    padding-left: 0%;
+    padding-top: 4%;
+    padding-left: 8%;
     padding-right: 8%;
     padding-bottom: 6%;
 }
@@ -447,8 +447,8 @@ ol a {
     background-color: var(--colour-orange);
     color: var(--colour-white);
     text-decoration: none;
-   padding-top: 4%;
-    padding-left: 0%;
+    padding-top: 4%;
+    padding-left: 8%;
     padding-right: 8%;
     padding-bottom: 6%;
 }
