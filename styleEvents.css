@@ -414,3 +414,7 @@ ol {
     background-position: center;
     height:65vh;
   }
+
+  .icon:hover {
+    background-color: var(--colour-orange);
+}
