@@ -453,3 +453,16 @@ ol a {
   .section2 p{
     padding-bottom: 1%;
   }
+
+  .heroImage {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: start;
+    /* border: 1px solid red; */
+    background-image: url("./HeroImg2.jpg"); 
+    background-size: cover;
+    background-position: center;
+    height:65vh;
+  }
