@@ -424,7 +424,6 @@ ol a:hover{
 .containerCJ{
     width: 70%;
     display: inline-block;
-    margin: 1%;
 }
 .containerButton{
     width: 30%;
@@ -432,7 +431,6 @@ ol a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2%;
     margin-left: 1%;
 }
 
@@ -452,6 +450,9 @@ ol a:hover{
     padding-left: 2%;
     padding-right: 2%;
     text-decoration: none;
+    color: var(--colour-green);
+}
+.containerText p {
     color: var(--colour-black);
 }
 
@@ -460,16 +461,17 @@ ol a:hover{
     color: var(--colour-white);
 }
 
-
+.containerText:hover p {
+    color: var(--colour-white);
+}
 
 .containerImage {
     width: 30%;
 }
 .containerCorinne{
     display: flex;
-    padding: 1%;
+    padding-bottom: 1%;
 }
 .containerJesse {
     display: flex;
-    padding: 1%;
 }
