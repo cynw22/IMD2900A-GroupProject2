@@ -470,3 +470,10 @@ ol a {
   .icon:hover {
     background-color: var(--colour-orange);
 }
+
+.taxReceipt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
