@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Bebas Neue;
+    src: url('BebasNeue-Regular.ttf');
+}
+
 :root {
     /* Core colours */
     --colour-orange: #e75204;
@@ -7,7 +12,6 @@
     --colour-black: black;
     --colour-green: #84bc04;
 }
-  
   
 /* Navbar container */
 .navBar {
