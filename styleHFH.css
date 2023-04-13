@@ -417,13 +417,13 @@ ol a {
     text-decoration:none;
 }
 
+.section5:visited{
+    color: var(--colour-dark-gray);
+}
+
 .section5:hover{
     background-color: var(--colour-orange);
     color: var(--colour-white);
-}
-
-.section5:visited{
-    color: var(--colour-dark-gray);
 }
 
 .container {
