@@ -408,8 +408,8 @@ ol a {
     color: var(--colour-black);
     margin: 1rem;
     flex-wrap: wrap;
-    width: 425px;
-    height: 200px;
+    width: 20%;
+    height: 150px;
     align-content: space-between;
     padding: 1rem;
     justify-content: center;
