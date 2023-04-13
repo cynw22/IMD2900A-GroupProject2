@@ -377,3 +377,16 @@ ol a:hover{
   }
 
   
+  
+.heroImage {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: start;
+    /* border: 1px solid red; */
+    background-image: url("./The_Shepherds_of_Good_Hope_Hero_Home.jpg"); 
+    background-size: cover;
+    background-position: center;
+    height:75vh;
+  }
