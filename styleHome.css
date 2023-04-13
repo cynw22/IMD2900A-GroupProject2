@@ -415,15 +415,15 @@ ol a:hover{
   }
 
   .section5 .grid-item4 h3{
-    color: var(--colour-black);
+    color: var(--colour-orange);
   }
 
   .section5 a h3:visited{
-    color: var(--colour-black);
+    color: var(--colour-orange);
 }
 
   .section5 a h3:hover{
-    color: var(--colour-orange);
+    color: var(--colour-green);
   }
 
 .section5 .orangeButton{
