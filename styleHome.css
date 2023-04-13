@@ -332,3 +332,48 @@ ol a:hover{
     background-color:var(--colour-orange) !important;
     color: var(--colour-white);
 }
+
+/**/
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;    
+    
+  }
+  
+  .grid-item1 {
+    background-color: var(--colour-white);
+    padding: 20px;
+    text-align: left;
+  }
+
+  
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 5% 0%;
+    background-color: var(--colour-white);
+  }
+  
+  .grid-item2 {
+    padding: 20px;
+    text-align: left;
+  }
+
+  .grid-container4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 5% 0%;
+
+  }
+  
+  .grid-item4 {    
+    background-color: var(--colour-white);
+    padding: 20px;
+    text-align: left;
+  }
+
+  
