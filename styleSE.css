@@ -136,6 +136,7 @@
 
 /* Orange Button style */
 .orangeButton {
+    margin: 10px 10px;
     font-family: 'Bebas Neue';
     font-size: 25px;
     color: var(--colour-white);
@@ -208,6 +209,63 @@ p {
 .orangeButton a:hover {
     background-color: var(--colour-white);
     color: var(--colour-orange);
+}
+
+ol {
+    list-style: none;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section3 {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section4 {
+    padding-bottom: 40px;
+    display: inline-block;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.section5 {
+    padding-bottom: 40px;
+    display: inline-block;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonHeader {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /**/
