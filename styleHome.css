@@ -409,15 +409,15 @@ ol a:hover{
     text-decoration: none;
   }
 
-  .section5 a h3{
+  .section5 a h4{
     color: var(--colour-orange);
   }
 
-  .section5 a h3:visited{
+  .section5 a h4:visited{
     color: var(--colour-orange);
 }
 
-  .section5 a h3:hover{
+  .section5 a h4:hover{
     color: var(--colour-green);
   }
 
