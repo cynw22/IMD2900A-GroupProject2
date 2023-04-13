@@ -516,3 +516,24 @@ ol a {
 .maxWidth75 {
     max-width: 75%;
 }
+
+.section3 p{
+    padding-top: 1%;
+}
+
+.section3 img{
+    padding-top: 1%;
+}
+
+.section3 a {
+    text-decoration: none;
+    color: var(--colour-orange);
+}
+.section3 a:visited {
+    text-decoration: none;
+    color: var(--colour-orange);
+}
+.section3 a:hover {
+    text-decoration: none;
+    color: var(--colour-black);
+}
