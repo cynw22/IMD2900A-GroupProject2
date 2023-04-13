@@ -416,3 +416,60 @@ ol a:hover{
   .section5 a h3:hover{
     color: var(--colour-green);
   }
+
+
+  .containerSection4 {
+    display: flex;
+  }
+.containerCJ{
+    width: 70%;
+    display: inline-block;
+    margin: 1%;
+}
+.containerButton{
+    width: 30%;
+    background-color: var(--colour-orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    margin-left: 1%;
+}
+
+.containerButton .orangeButton {
+    height: 100%;
+}
+
+.containerButton .orangeButton h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerText {
+    width: 70%;
+    background-color: var(--colour-white);
+    padding-left: 2%;
+    padding-right: 2%;
+    text-decoration: none;
+    color: var(--colour-black);
+}
+
+.containerText:hover {
+    background-color: var(--colour-orange);
+    color: var(--colour-white);
+}
+
+
+
+.containerImage {
+    width: 30%;
+}
+.containerCorinne{
+    display: flex;
+    padding: 1%;
+}
+.containerJesse {
+    display: flex;
+    padding: 1%;
+}
