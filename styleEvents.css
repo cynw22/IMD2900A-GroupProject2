@@ -23,6 +23,8 @@
     overflow: hidden;
     background-color: var(--colour-dark-gray);
     font-family: 'Bebas Neue';
+    display: flex;
+    justify-content: center;
 }
       
 /* Links inside the navbar */
