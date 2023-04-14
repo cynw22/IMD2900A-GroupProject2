@@ -113,6 +113,7 @@
 
 .maxWidth50{
     max-width: 50%;
+    background-color: var(--colour-white);
 }
 
 .maxWidth25 {
@@ -159,11 +160,35 @@
     display: block;
     text-align: center;
     border: none;
+    
+    color:var(--colour-black);
+    padding: 14px 48px;
+    margin: 14px;
+    margin-top: 0px;
+    text-align: left;
 }
 
 .orangeButton:hover {
     background-color:var(--colour-white) !important;
     color: var(--colour-orange);
+}
+
+.section3 .orangeButton {
+    color:var(--colour-white);
+    background-color: var(--colour-orange);
+    align-self: center;
+    float: none;
+    padding: 14px 48px;
+    margin: 14px;
+    margin-top: 0px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border: none;
+}
+
+.section3 .orangeButton:hover {
+    color: var(--colour-black);
 }
 
 body {
@@ -206,11 +231,6 @@ a.sec3 {
 
 .subtext {
     text-align: center;
-}
-
-.orangeButton a:hover {
-    background-color: var(--colour-white);
-    color: var(--colour-orange);
 }
 
 /**/
@@ -389,4 +409,9 @@ ol a:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.questions{
+    background-color: var(--colour-white);
+    padding-right: 50px;
 }
