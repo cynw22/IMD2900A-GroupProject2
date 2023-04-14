@@ -109,6 +109,7 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
+    width: 100%;
 }
 
 .maxWidth50 {
@@ -411,6 +412,8 @@ ol a {
     align-items: center;
     padding: 2%;
     background-color: var(--colour-white);
+    width: 98%;
+    margin-left: 1%;
 }
 
 .space-center h3 {
